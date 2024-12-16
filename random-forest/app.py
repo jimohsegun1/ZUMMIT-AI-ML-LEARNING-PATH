@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.title("Random Forest Regression: Height to Weight Prediction")
 
 # Load the trained model
-model = joblib.load('random_forest_model.pkl')
+model = joblib.load('./random_forest_model.pkl')
 
 # Sidebar for user input
 st.sidebar.header("User Input")
