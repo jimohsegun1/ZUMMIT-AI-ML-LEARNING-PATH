@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import pandas as pd
 import joblib
@@ -6,8 +7,13 @@ import matplotlib.pyplot as plt
 # Set the page title
 st.title("Random Forest Regression: Height to Weight Prediction")
 
-# Load the trained model
-model = joblib.load('./random_forest_model.pkl')
+# Debugging: Print the path to check if the model file exists
+model_path = './static/random_forest_model.pkl'
+if os.path.exists(model_path):
+    st.write(f"Model file found at: {os.path.abspath(model_path)}")
+    model = joblib.load(model_path)
+else:
+    st.error(f"Model file not found at: {os.path.abspath(model_path)}")
 
 # Sidebar for user input
 st.sidebar.header("User Input")
