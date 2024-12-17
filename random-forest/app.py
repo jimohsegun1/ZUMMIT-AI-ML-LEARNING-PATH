@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Set the page title
 st.title("Random Forest Regression: Height to Weight Prediction")
 
-# Debugging: Print the path to check if the model file exists
+# Debugging: Print the path to check if the model file existstt
 model_path = './static/random_forest_model.pkl'
 if os.path.exists(model_path):
     st.write(f"Model file found at: {os.path.abspath(model_path)}")
