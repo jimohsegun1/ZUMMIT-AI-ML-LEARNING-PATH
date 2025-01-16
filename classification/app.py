@@ -5,10 +5,13 @@ from PIL import Image, ImageOps
 import os
 
 
-print("dir", os.getcwd())
+print("dir", os.getcwd(), os.getcwdb())
+subPath = os.getcwd()
+filename = f'{subPath}/mnist_model.h5'
+print("file name",filename)
 # Load the trained model
 # model = load_model("E:\MACHINE LEARNING\ZUMMIT-AI-ML-LEARNING-PATH\classification\mnist_model.h5")
-model = load_model("mnist_model.h5")
+model = load_model(filename)
 
 # "E:\MACHINE LEARNING\ZUMMIT-AI-ML-LEARNING-PATH\classification\mnist_model.h5"
 # Streamlit app title
