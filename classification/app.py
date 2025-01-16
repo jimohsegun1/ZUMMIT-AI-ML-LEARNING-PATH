@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image, ImageOps
 
 # Load the trained model
-model = load_model('mnist_model.h5')
+model = load_model('./mnist_model.h5')
 
 # Streamlit app title
 st.title("MNIST Digit Classification")
