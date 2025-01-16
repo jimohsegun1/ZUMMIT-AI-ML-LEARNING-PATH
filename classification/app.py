@@ -8,7 +8,7 @@ import os
 print("dir", os.getcwd())
 # Load the trained model
 # model = load_model("E:\MACHINE LEARNING\ZUMMIT-AI-ML-LEARNING-PATH\classification\mnist_model.h5")
-model = load_model("/zummit-ai-ml-learning-path/classification/mnist_model.h5")
+model = load_model("mnist_model.h5")
 
 # "E:\MACHINE LEARNING\ZUMMIT-AI-ML-LEARNING-PATH\classification\mnist_model.h5"
 # Streamlit app title
