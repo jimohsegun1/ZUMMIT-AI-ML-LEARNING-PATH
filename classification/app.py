@@ -5,7 +5,7 @@ from PIL import Image, ImageOps
 
 # Load the trained model
 # model = load_model("E:\MACHINE LEARNING\ZUMMIT-AI-ML-LEARNING-PATH\classification\mnist_model.h5")
-model = load_model("/ZUMMIT-AI-ML-LEARNING-PATH/classification/mnist_model.h5")
+model = load_model("E:\MACHINE LEARNING\ZUMMIT-AI-ML-LEARNING-PATH\classification\mnist_model.h5")
 
 # "E:\MACHINE LEARNING\ZUMMIT-AI-ML-LEARNING-PATH\classification\mnist_model.h5"
 # Streamlit app title
