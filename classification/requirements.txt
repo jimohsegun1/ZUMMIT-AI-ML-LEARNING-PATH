@@ -3,3 +3,7 @@ tensorflow
 pillow
 numpy
 h5py
+joblib
+numpy
+pandas
+matplotlib
